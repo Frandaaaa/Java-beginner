@@ -183,8 +183,8 @@ public class Breakout extends GraphicsProgram {
 					AudioClip bounceClip = MediaTools.loadAudioClip("bounce.au");
 					bounceClip.play();
 					
-					vy *= 1.2;//机打一次改变速度修改
-					vx *= 1.2;
+					vy *= 1.11;//机打一次改变速度修改
+					vx *= 1.11;
 					remove(bricks_col[i]);//不同颜色砖块得到不同分数
 					if(0 <= i && i<20)
 						scores += 20;
